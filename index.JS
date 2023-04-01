@@ -54,3 +54,19 @@ if (usuario === usuario_cadastrado && senha === senha_cadastrada) {
   alert("Falha de autenticação. Verifique seu nome de usuário e senha.");
 }
 
+//Questão 6 (Media notas)
+n1 = 4
+n2 = 2
+n3 = 5
+n4 = 6
+n5 = 7
+n6 = 8
+n7 = 6
+
+media = ((n1 + n2 + n3 + n4 + n5 + n6 + n7) / 7)
+if (media >= 6){
+    console.log("O aluno foi aprovado, sua media foi: " + media.toFixed(2))
+}
+else if (media < 6){
+    console.log("O aluno foi reprovado, sua media foi: " + media.toFixed(2))
+}

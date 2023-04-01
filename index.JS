@@ -97,3 +97,19 @@ div1.onmouseout = function() {
   
   div1.style.backgroundColor = "";
 };
+
+//Questão 9
+
+const div2 = document.getElementById("Ola");
+
+div2.onmouseover = function() {
+    div2.innerHTML = "Olá!";
+    div2.style.backgroundColor = "green";
+  };
+  
+  div2.onmouseout = function() {
+    div2.innerHTML = "Tchau";
+    div2.style.backgroundColor = "yellow";
+
+    
+  };

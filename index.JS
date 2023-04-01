@@ -42,8 +42,8 @@ if(idade >=0 && idade <= 12){
 
 //Questão 5 (usuario)
 
-const usuario_cadastrado = "usuario_teste";
-const senha_cadastrada = "12345678";
+const usuario_cadastrado = "admin";
+const senha_cadastrada = "1234";
 
 const usuario = prompt("Digite seu usuário:");
 const senha = prompt("Digite sua senha:");
@@ -80,7 +80,7 @@ h1Element.addEventListener("click", function() {
     alert("Fundo verde!")
 })
 
-//Questão 8
+//Questão 8 (on mouse over azul)
 
 const div1 = document.getElementById("passe_o_mouse");
 
@@ -98,7 +98,7 @@ div1.onmouseout = function() {
   div1.style.backgroundColor = "";
 };
 
-//Questão 9
+//Questão 9 (on mouse over/out)
 
 const div2 = document.getElementById("Ola");
 
@@ -113,6 +113,3 @@ div2.onmouseover = function() {
 
     
   };
-
-
-  

@@ -26,4 +26,17 @@ else if (imc > 24.9)
 
 else
    console.log("Voce esta dentro do peso ideal")
-//
+
+//Questão 4 (idade)
+let idade = 23
+
+if(idade >=0 && idade <= 12){
+    console.log("É uma Criança")
+}else if(idade <= 18){
+    console.log("É um Adolescente")
+}else if(idade <= 59){
+    console.log("É um Adulto")
+}else{
+    console.log("È um Idoso")
+}
+

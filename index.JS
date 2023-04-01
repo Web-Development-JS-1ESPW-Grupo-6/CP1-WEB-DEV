@@ -70,3 +70,12 @@ if (media >= 6){
 else if (media < 6){
     console.log("O aluno foi reprovado, sua media foi: " + media.toFixed(2))
 }
+
+//Questão 7 (tela verde)
+
+const h1Element = document.getElementById("tela_green")
+
+h1Element.addEventListener("click", function() {
+    document.body.style.backgroundColor = "green"
+    alert("Fundo verde!")
+})

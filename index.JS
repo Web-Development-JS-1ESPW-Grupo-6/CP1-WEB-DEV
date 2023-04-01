@@ -1,6 +1,12 @@
 //Checkpoint 1 de Web development with Java
 
 //Questão 1 (Variavel undfined)
+let exemplo =//Variavel sem valor atribuido
+console.log("Exemplo 1: " + exemplo) 
 
-let exemplo//Variavel sem valor atribuido
-console.log("Exemplo: " + exemplo)
+//Questão 2 (operador %)
+let num1 = 5
+let num2 = 2
+let resto = num1 % num2
+console.log("O resto da divisao entre 5 e 2 é: " + resto)
+//O operador % denomina o "resto" de uma divisão

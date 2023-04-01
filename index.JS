@@ -26,4 +26,4 @@ else if (imc > 24.9)
 
 else
    console.log("Voce esta dentro do peso ideal")
-
+//

@@ -40,3 +40,17 @@ if(idade >=0 && idade <= 12){
     console.log("È um Idoso")
 }
 
+//Questão 5 (usuario)
+
+const usuario_cadastrado = "usuario_teste";
+const senha_cadastrada = "12345678";
+
+const usuario = prompt("Digite seu usuário:");
+const senha = prompt("Digite sua senha:");
+
+if (usuario === usuario_cadastrado && senha === senha_cadastrada) {
+  alert("Login realizado com sucesso!");
+} else {
+  alert("Falha de autenticação. Verifique seu nome de usuário e senha.");
+}
+

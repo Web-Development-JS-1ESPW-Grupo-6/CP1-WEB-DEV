@@ -79,3 +79,21 @@ h1Element.addEventListener("click", function() {
     document.body.style.backgroundColor = "green"
     alert("Fundo verde!")
 })
+
+//Questão 8
+
+const div1 = document.getElementById("passe_o_mouse");
+
+div1.onmouseover = function() {
+
+  div1.innerHTML = "fundo azul";
+  
+  div1.style.backgroundColor = "blue";
+};
+
+div1.onmouseout = function() {
+  
+  div1.innerHTML = "Passe o mouse aqui";
+  
+  div1.style.backgroundColor = "";
+};

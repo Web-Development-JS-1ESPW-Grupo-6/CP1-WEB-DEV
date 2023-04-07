@@ -14,15 +14,16 @@ Turma 1ESPW
 
 - Boas práticas de organização de arquivos. Sempre crie seus scripts dentro de uma pasta para que todos os arquivos fiquem organizados e todos saibam onde está cada item do projeto.
 - Foi observado também que no meio da questão 7 apareceu a mensagem da questão 8.
-
+- O versionamento deixou a desejar foi utilizada apenas uma branch para isso.
 ## Considerações
 
 - Ficou muito bom.
-- Seguiram todas as solicitações.
+- Seguiram quase todas as solicitações.
 - Se atentem para observações acima para as entregas futuras, tratem como um padrão para os próximos projetos.
+- Sem versionamento o Github é utilizado apenas como um drive de arquivos pessoal. Essa ferramenta nos oferece muito mais que isso. Vamos explorar ela ao máximo.
 - No mais gostei muito.
 Parabéns.
  
 > `Prof.Alexandre C de Jesus`
 
-## Nota = `100`.
+## Nota = `85`.
